@@ -69,7 +69,7 @@ function App() {
   return (
     <div className={styles.appContainer}>
       <div className={styles.searchSection}>
-        <h1>Discover Today’s Weather</h1>
+        <h1  className={styles.appTitle}>Discover Today’s Weather</h1>
         <input 
           type="text" 
           value={city} 
