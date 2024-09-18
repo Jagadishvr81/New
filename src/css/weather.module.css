@@ -1,0 +1,23 @@
+/* CSS Module - Scoped styles for WeatherForecast component */
+.weatherContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .weatherMain {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .weatherDetails {
+    margin-bottom: 20px;
+  }
+  
+  .weatherDetails p {
+    margin: 5px 0;
+  }
+  
